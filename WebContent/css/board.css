@@ -35,3 +35,6 @@ a:hover {
 	text-decoration: underline;
 	color: green;
 }
+a:active{
+	color:blue;
+}
