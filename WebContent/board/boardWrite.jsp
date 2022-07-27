@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/shopping.css">
+<link rel="stylesheet" type="text/css" href="css/board.css">
 <script type="text/javascript" src="script/board.js"></script>
 </head>
 <body>
@@ -42,5 +42,8 @@
 	<input type="button" value="목록" onclick="location.href='BoardServlet?command=board_list'">
 </form>
 </div>
+<script>
+frm.name.focus();
+</script>
 </body>
 </html>
